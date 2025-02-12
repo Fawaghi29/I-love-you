@@ -1,0 +1,11 @@
+ body {
+  font-family: georgia;
+  background: #FFD8EF;
+  color: white;
+  text-align: center;
+}
+#timer {
+  font-size: 6vw;
+  font-weight:bold;
+  color:#F8B1DB;
+}
