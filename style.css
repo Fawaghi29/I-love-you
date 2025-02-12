@@ -1,11 +1,30 @@
- body {
+body {
   font-family: georgia;
   background: #FFD8EF;
   color: white;
   text-align: center;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
 }
 #timer {
   font-size: 6vw;
   font-weight:bold;
   color:#F8B1DB;
+  justify-content:center;
+  align-items:center;
+  height:100hv;
+}
+html,body{
+  height:100%;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.center-container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-itmes:center;
 }
